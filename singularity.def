@@ -11,7 +11,7 @@ From: tensorflow/tensorflow:2.10.0-gpu
 %files
     requirements.txt /user/source/requirements.txt
     main.py /user/source/main.py
-    /home/vault/b116ba/b116ba17/shap-e/shap-e/* /user/source/model/shap-e/
+    shap-e/* /user/source/model/shap-e/
 
 %post
     # Install Python packages listed in requirements.txt and specify an extra index URL for PyTorch
