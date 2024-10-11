@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # ShapE-TextTo3D-HPC
 
@@ -89,3 +90,6 @@ Replace `Your prompt here` with the desired input, and `output_directory` with t
 - `requirements.txt`: Python dependencies.
 - `singularity.def`: Singularity container definition file.
 - `output/`: Directory where model outputs will be stored.
+=======
+# ShapE-TextTo3D-HPC
+>>>>>>> 9262b23f1adea1b99810f03152d554038dea5a6d
