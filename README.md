@@ -29,26 +29,12 @@ This project builds upon the [Shap-E model by OpenAI](https://huggingface.co/ope
    cd ShapE-TextTo3D-HPC
    ```
 
-2. **Install Python dependencies:**
-
-   Use the following command to install the required Python libraries:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-   The `requirements.txt` includes the following libraries:
-   - `diffusers`
-   - `transformers`
-   - `accelerate`
-   - `trimesh`
-
-3. **Prepare Singularity Container:**
+2. **Prepare Singularity Container:**
 
    The project uses a Singularity container defined in `singularity.def`. Build the container using:
 
    ```bash
-   singularity build model/shap_e.sif singularity.def
+   singularity build shap_e.sif singularity.def
    ```
 
 ## Usage
@@ -77,7 +63,7 @@ This command will create the `results` directory inside the `output` folder and 
 If you do not wish to use SLURM, you can run the model directly with Singularity:
 
 ```bash
-singularity run --bind ./output:/user/source/output/ model/shap_e.sif --prompt "Your prompt here" --output_path /user/source/output/output_directory/
+singularity run --bind ./output:/user/source/output/ shap_e.sif --prompt "Your prompt here" --output_path /user/source/output/output_directory/
 ```
 
 Replace `Your prompt here` with the desired input, and `output_directory` with the desired output location.

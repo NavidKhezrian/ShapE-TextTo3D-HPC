@@ -12,6 +12,5 @@ mkdir -p "output/$1"
 
 
 
-singularity run --bind ./output:/user/source/output/ \
-                    model/shap_e.sif --prompt "$2" --output_path /user/source/output/$1/
+singularity run --bind ./output:/user/source/output/ shap_e.sif --prompt "$2" --output_path /user/source/output/$1/
 
