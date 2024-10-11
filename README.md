@@ -53,7 +53,7 @@ sbatch job.sh <output_directory> "<prompt>"
 Example:
 
 ```bash
-sbatch job.sh results "Generate a 3D model of a car"
+sbatch job.sh 1 "apple"
 ```
 
 This command will create the `results` directory inside the `output` folder and save the generated output there.
