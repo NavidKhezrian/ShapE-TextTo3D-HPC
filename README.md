@@ -1,7 +1,7 @@
 
 # ShapE-TextTo3D-HPC
 
-This project is a text-to-3D model containerized using Singularity and is optimized for execution on high-performance computing (HPC) systems. The model generates 3D shapes based on text prompts and uses GPU acceleration for efficient processing. This setup has been successfully tested on the [FAU HPC system](https://hpc.fau.de/).
+This project is a text-to-3D model containerized using Singularity and is optimized for execution on high-performance computing (HPC) systems. The model generates 3D shapes based on text prompts and uses GPU acceleration for efficient processing. The project has been successfully tested on the HPC system at [Erlangen National High Performance Computing Center](https://hpc.fau.de/).
 
 
 This project builds upon the [Shap-E model by OpenAI](https://huggingface.co/openai/shap-e), providing a streamlined way to run text-to-3D conversions within a containerized environment on an HPC platform.
